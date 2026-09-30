@@ -1,0 +1,12 @@
+---
+import AdminLogin from "../../components/admin/AdminLogin";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="TipPal Admin — Sign in"
+  description="Secure passwordless sign in to the TipPal admin portal."
+  lang="en"
+>
+  <AdminLogin client:load language="en" />
+</BaseLayout>
